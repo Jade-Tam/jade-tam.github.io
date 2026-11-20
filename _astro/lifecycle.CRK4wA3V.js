@@ -1,0 +1,1 @@
+function e(e){document.documentElement.dataset.transitions===`on`?document.addEventListener(`astro:page-load`,e):document.readyState===`loading`?document.addEventListener(`DOMContentLoaded`,e,{once:!0}):e()}var t=()=>window.matchMedia(`(prefers-reduced-motion: reduce)`).matches;export{t as n,e as t};

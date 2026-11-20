@@ -1,0 +1,1 @@
+import{t as e}from"./lifecycle.CRK4wA3V.js";e(()=>{document.querySelectorAll(`[data-ba]`).forEach(e=>{let t=e.querySelector(`.ba__range`),n=()=>e.style.setProperty(`--pos`,`${t.value}%`);t.addEventListener(`input`,n),n()})});

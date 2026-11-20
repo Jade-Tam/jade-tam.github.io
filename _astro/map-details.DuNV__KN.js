@@ -1,0 +1,1 @@
+import{t as e}from"./lifecycle.CRK4wA3V.js";e(()=>{document.querySelectorAll(`[data-detail]`).forEach(e=>{if(e.childElementCount)return;let t=document.querySelector(`.collage[data-collage-id="${CSS.escape(e.dataset.detail??``)}"]`);t&&!t.contains(e)&&(t.classList.add(`is-visible`),e.append(t))})});
